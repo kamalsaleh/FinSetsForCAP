@@ -32,8 +32,9 @@ DeclareCategory( "IsMorphismInSkeletalCategoryOfFiniteSets",
 ##
 ####################################
 
-# COVERAGE_IGNORE_BLOCK_START
 if false then
+# COVERAGE_IGNORE_BLOCK_START
+
 #! @Description
 #! The arguments are a category <A>C</A> of skeletal finite sets and a non-empty list <A>L</A> of non-negative integers.
 #! The output is an object whose cardinality is a random element in <A>L</A>.
@@ -106,8 +107,8 @@ DeclareOperation( "RandomMorphismWithFixedRangeByList", [ IsCategoryOfSkeletalFi
 #! @Arguments C, S, R, L
 DeclareOperation( "RandomMorphismWithFixedSourceAndRangeByList", [ IsCategoryOfSkeletalFinSets, IsCategoryOfSkeletalFinSets, IsCategoryOfSkeletalFinSetsObject, IsCategoryOfSkeletalFinSetsObject, IsList ] );
 
-fi;
 # COVERAGE_IGNORE_BLOCK_END
+fi;
 
 #! @Section Attributes
 
